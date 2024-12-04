@@ -8,21 +8,32 @@
 </p>
 
 # Atte(勤怠管理システム)
-会員登録後、打刻・日付ごとの勤怠表確認・ユーザーごとの勤怠表確認・ユーザー一覧が出来るシステム  
+会員登録後、打刻・日付ごとの勤怠表確認・ユーザーごとの勤怠表確認・ユーザー一覧が出来るシステム
+![Alt text](img/home.png)
+
+## 作成した目的
+模擬案件として提出するため
+今までした学習のアウトプットをするため
+
+## アプリケーションURL
+
+ログイン時、文字以内
+
 
 ## 機能一覧
 ログイン機能、メール認証、打刻、勤務時間/休憩時間管理、日付別勤怠管理、ユーザー別勤怠管理
 
 ## 仕様技術
-Laravel 8.x
-PHP
-MySQL
-Docker
+Laravel 8.83.27
+PHP 7.4.9
+MySQL 15.1
+Docker 27.1.1
 Amazon AWS
 Amazon EC2
+OS:Linux(Ubuntu)
 
-## テーブル設計
-![Alt text](img/table.svg)
+## テーブル設計書
+![Alt text](img/table.png)
 
 ## ER図
-![Alt text](img/index.svg)
+![Alt text](img/index.drawio.png)
